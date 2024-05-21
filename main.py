@@ -9,7 +9,7 @@ selection = st.selectbox( "Choose Stock", ['RELIANCE','HDFCBANK','BAJAJFINSV'])
 
 st.write("### "+selection)
 
-df = pd.read_csv("dataset/"+selection+".csv")
+df = pd.read_csv(selection+".csv")
 
 # Display the dataframe
 st.write("### DataFrame")

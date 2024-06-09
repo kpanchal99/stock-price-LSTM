@@ -1,2 +1,7 @@
 streamlit
 matplotlib
+numpy
+pandas
+tensorflow[and-cuda]
+scikit-learn
+ipykernel

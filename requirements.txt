@@ -5,3 +5,4 @@ pandas
 tensorflow[and-cuda]
 scikit-learn
 ipykernel
+plotly
